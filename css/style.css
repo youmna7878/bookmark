@@ -1,0 +1,129 @@
+::selection {
+    background-color: #fec260;
+    color: #352e28;
+}
+body{
+    background-color: #f7ecde;
+
+}
+.Bookmark {
+    position: relative;
+
+
+}
+
+h1 {
+    color:
+        RGB(53, 46, 40);
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Pacifico", cursive;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 50px;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 340px;
+    background-color: #fec260;
+    height: 25%;
+    width: 255px;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+h1:hover::after {
+    height: 50%;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-family: "Righteous", sans-serif;
+
+}
+
+label {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+    color: RGB(33, 37, 41);
+}
+
+.form-control:focus {
+    border-color: #d99c39;
+    ;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+
+
+
+}
+
+.submit {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.content {
+    border-bottom: black dotted 2px;
+    border-top: black dotted 2px;
+    padding: 20px 0 20px 0;
+}
+
+.visit {
+    color: #fff;
+    background-color: #9eb23b;
+    border-width:1px ;
+    border-color: #9eb23b;
+    padding: 6px 12px;
+}
+
+.visit:hover {
+    background-color: #8a9e23;
+    border-color: #6e8018;
+    color: #fff;
+}
+.box-content{
+    width: 50%;
+    z-index: 9999999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+
+}
+
+.box-content p {
+    text-align: start;
+    color: 
+    RGB(53, 46, 40);
+    font-size: 21px;
+    font-family: "Bree Serif", serif;
+
+
+}
+.fa-ul{
+    text-align: start;
+}
+li {
+    font-size: 18px;
+    color: #212529
+    ;
+    font-family: "PT Sans Caption", serif;
+
+}
+.fa-xmark{
+    padding-bottom: 6px ;
+}
